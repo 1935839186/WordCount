@@ -13,12 +13,12 @@ namespace ConsoleApp1
             string All;
             WordCount A = new WordCount();
             All=A.Read();
-           // Console.WriteLine(All);
+          // Console.WriteLine(All);
             Count B = new Count();
-            B.Countzifu(All);
-            Console.WriteLine("-----");
-           // B.Countline();
-           // Console.WriteLine("-----");
+            //B.Countzifu(All);
+            //Console.WriteLine("-----");
+            //B.Countline();
+           Console.WriteLine("-----");
             B.Countword(All);
         }
     }
